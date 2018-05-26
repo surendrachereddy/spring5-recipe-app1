@@ -13,6 +13,13 @@ public class Ingredient {
     private Recipe recipe;
     @OneToOne(fetch = FetchType.EAGER)
     private UnitofMeasure unitofMeasure;
+
+
+
+
+
+    //getters and setters
+
     public Long getId() {
         return id;
     }

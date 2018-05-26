@@ -13,6 +13,12 @@ public class Notes {
     @Lob
     private String recipeNotes;
 
+
+
+
+    //getters and setters
+
+
     public Long getId() {
         return id;
     }
